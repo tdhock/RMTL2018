@@ -1,0 +1,27 @@
+\documentclass[landscape]{slides}
+\usepackage{pdfpages}
+\newcommand{\lightning}[1]{
+  \includepdf[pages={1-},scale=1]{#1}
+  \begin{slide}
+    40--60 seconds until next speaker
+  \end{slide}
+  \begin{slide}
+    20--40 seconds until next speaker
+  \end{slide}
+  \begin{slide}
+    0--20 seconds until next speaker
+  \end{slide}
+}
+
+\begin{document}
+
+\lightning{1-romainLeDucRMontreal2018.pdf}
+\lightning{2-sahir.pdf}
+\lightning{3-Mathieu_Dupont-raster.pdf}
+\lightning{4-ebr-rmtl.pdf}
+\lightning{5-pokemon.pdf}
+\lightning{6-Daigle.pdf}
+\lightning{7-mondin.pdf}
+\lightning{8-Sanger-populisme.pdf}
+
+\end{document}
