@@ -1,0 +1,5 @@
+R Montreal 2018
+
+This repo contains source code for my slides at R Montreal 2018
+- [[file:intro-slides/RMontreal.R]] makes maps based on participant addresses.
+- [[file:lightning/RMTL-lightning.tex]] are the lightning talk slides.
